@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vibility,z-index,flexbox</title>
+    <style>
+        .square {
+            width: 170px;
+            height: 170px;
+            border: 2px solid black;
+        }
+
+        #sq-1 {
+
+            position: relative;
+            top: 34;
+            z-index: -35;
+            background-color: green;
+        }
+
+        #sq-2 {
+            position: relative;
+            top: 14;
+            z-index: -1;
+            background-color: yellow;
+        }
+
+        #sq-3 {
+
+
+
+            background-color: red;
+        }
+
+        #sq-4 {
+
+
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="square" id="sq-1"></div>
+    <div class="square" id="sq-2"></div>
+    <div class="square" id="sq-3"></div>
+    <div class="square" id="sq-4"></div>
+</body>
+
+</html>
