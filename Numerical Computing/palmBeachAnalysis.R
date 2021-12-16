@@ -1,4 +1,6 @@
-myDataFr=data.frame(read.csv("F://Courses/DataScience/mylect/Linear_Model/palmbeachatlantic.csv"))
+
+
+myDataFr=data.frame(read.csv("D://6th semester/Numerical Computing/palmbeachatlantic.csv"))
 View(myDataFr)
 plot(myDataFr)
 cor(myDataFr)
